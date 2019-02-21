@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	
+</head>
+<body>
+	<!-- textfield -->
+	<div class="mdc-card">
+		<h2 class="card-title">Property Registration </h2>
+		<div class="mdc-text-field mdc-text-field--fullwidth myText1">
+			<input class="mdc-text-field__input"
+			type="text" id="myText11"
+			aria-label="Property Name">
+			<label for="myText11" class="mdc-floating-label">Property Name</label>
+			<div class="mdc-line-ripple"></div>
+		</div>
+		<div class="mdc-text-field mdc-text-field--fullwidth myText2">
+			<input class="mdc-text-field__input"
+			type="text" id="myText22"
+			aria-label="Property Address">
+			<label for="myText22" class="mdc-floating-label">Property Address</label>
+			<div class="mdc-line-ripple"></div>
+		</div>
+		<div class="mdc-text-field mdc-text-field--fullwidth myText3">
+			<input class="mdc-text-field__input"
+			type="text" id="myText33" 
+			aria-label="Country">
+			<label for="myText33" class="mdc-floating-label">Country</label>
+			<div class="mdc-line-ripple"></div>
+		</div>
+		<!-- switches -->
+		
+		<div class="mdc-layout-grid">
+			<div class="mdc-layout-grid__inner"> 
+				<div class="mdc-layout-grid__cell--span-6">
+					<div class="mdc-switch mySwitch1">
+						<div class="mdc-switch__track"></div>
+						<div class="mdc-switch__thumb-underlay">
+							<div class="mdc-switch__thumb">
+								<input type="checkbox" id="basic-switch" class="mdc-switch__native-control" role="switch">
+							</div>
+						</div>
+					</div>
+					<label for="basic-switch">Swimming pool</label>
+				</div>
+				<div class="mdc-layout-grid__cell--span-6">
+					<div class="mdc-switch mySwitch2">
+						<div class="mdc-switch__track"></div>
+						<div class="mdc-switch__thumb-underlay">
+							<div class="mdc-switch__thumb">
+								<input type="checkbox" id="basic-switch" class="mdc-switch__native-control" role="switch">
+							</div>
+						</div>
+					</div>
+					<label for="basic-switch">Garden</label>
+				</div>
+			</div>
+		</div>
+		<!-- buttons -->
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell">
+				<button class="mdc-button">
+					<span class="mdc-button__label myButton1">Submit</span>
+				</button>
+			</div>
+			<div class="mdc-layout-grid__cell">
+				<button class="mdc-button">
+					<span class="mdc-button__label myButton2">Cancel</span>
+				</button>
+			</div>
+			<div class="mdc-layout-grid__cell">
+				<button class="mdc-button">
+					<span class="mdc-button__label myButton3">Reset</span>
+				</button>
+			</div>
+		</div>
+
+
+		<div class="mdc-tab-bar" role="tablist">
+			<div class="mdc-tab-scroller">
+				<div class="mdc-tab-scroller__scroll-area">
+					<div class="mdc-tab-scroller__scroll-content">
+						<button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+							<span class="mdc-tab__content">
+								<span class="mdc-tab__icon material-icons" aria-hidden="true">favorite</span>
+							</span>
+							<span class="mdc-tab-indicator mdc-tab-indicator--active">
+								<span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+							</span>
+							<span class="mdc-tab__ripple"></span>
+						</button>
+						<button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+							<span class="mdc-tab__content">
+								<span class="mdc-tab__icon material-icons" aria-hidden="true">favorite</span>
+							</span>
+							<span class="mdc-tab-indicator mdc-tab-indicator--active">
+								<span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+							</span>
+							<span class="mdc-tab__ripple"></span>
+						</button>
+						<button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+							<span class="mdc-tab__content">
+								<span class="mdc-tab__icon material-icons" aria-hidden="true">favorite</span>
+							</span>
+							<span class="mdc-tab-indicator mdc-tab-indicator--active">
+								<span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+							</span>
+							<span class="mdc-tab__ripple"></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>

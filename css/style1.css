@@ -1,0 +1,37 @@
+.mdc-card{
+	margin: 20px 10%;
+	padding: 20px 50px;
+ background: linear-gradient(to bottom, #e7f7fc 0%, #ff7cbd 90%);
+
+	border: 5px solid gray;
+}
+.myButton1{
+	background-color: #32aa3f;
+	padding: 10px 15px;
+	border-radius: 10px;
+	color: white;
+}
+.mdc-layout-grid__cell button:hover{
+	background-color: red;
+	transition: all 3.7s;
+}
+.myButton2{
+	background-color: #e64b4b;
+	padding: 10px 15px;
+	border-radius: 10px;
+	color: white;
+}
+
+.myButton3{
+	background-color: #42bde6;
+	padding: 10px 15px;
+	border-radius: 10px;
+	color: white;
+}
+.card-title{
+	font-size: 50px;
+	color: gray;
+	text-align: center;
+	font-family:monospace; 
+}
+

@@ -1,0 +1,9 @@
+mdc.textField.MDCTextField.attachTo(document.querySelector('.myText1'));
+mdc.textField.MDCTextField.attachTo(document.querySelector('.myText2'));
+mdc.textField.MDCTextField.attachTo(document.querySelector('.myText3'));
+mdc.switchControl.MDCSwitch.attachTo(document.querySelector('.mySwitch1'));
+mdc.switchControl.MDCSwitch.attachTo(document.querySelector('.mySwitch2'));
+mdc.buttonRipple.MDCRipple.attachTo(document.querySelector('.myButton1'));
+mdc.buttonRipple.MDCRipple.attachTo(document.querySelector('.myButton2'));
+mdc.buttonRipple.MDCRipple.attachTo(document.querySelector('.myButton3'));
+mdc.buttonRipple.MDCRipple.attachTo(document.querySelector('.mdc-tab'));
